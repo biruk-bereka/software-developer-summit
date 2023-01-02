@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 20px 0 50px 24px;
+}
+
+#home {
+  background-image: url("/assets/images/main_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 24px 65px 24px;
+}
+
+.welcome {
+  color: #ec5242;
+  font-size: x-large;
+}
+
+.topic {
+  color: #ec5242;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.introduction {
+  background-color: rgb(252, 252, 252);
+  margin: 20px 0;
+  padding: 10px;
+  border: 3px solid #fff;
+}
+
+.date {
+  font-size: 25px;
+  padding-bottom: 5px;
+}
