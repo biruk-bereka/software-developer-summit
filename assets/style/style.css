@@ -16,12 +16,7 @@
 }
 
 header {
-  padding: 20px 0 50px 24px;
-  width: 100%;
-  background-color: #fff;
-  position: fixed;
-  z-index: 2;
-  top: 0;
+  padding-bottom: 40px;
 }
 
 #home {
@@ -29,7 +24,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 24px 65px 24px;
-  margin-top: 90px;
 }
 
 .welcome {
@@ -89,4 +83,38 @@ header {
   margin: 20px 0;
   font-size: 20px;
   cursor: pointer;
+}
+
+.featured-speakers {
+  margin: 20px 24px;
+  text-align: center;
+  color: black;
+}
+
+.speaker {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.speaker-image {
+  width: 200px;
+  aspect-ratio: 1/1;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  padding-left: 20px;
+}
+
+.profile .profession {
+  color: #ec5242;
+  padding: 2% 0;
+}
+
+.profile img {
+  padding: 2% 0;
 }
