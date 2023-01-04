@@ -15,6 +15,15 @@
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 header {
   padding-bottom: 40px;
 }
@@ -99,7 +108,7 @@ header {
 
 .speaker-image {
   width: 200px;
-  aspect-ratio: 1/1;
+  height: 200px;
 }
 
 .profile {
@@ -117,4 +126,197 @@ header {
 
 .profile img {
   padding: 2% 0;
+}
+
+.desktop-header {
+  display: none;
+}
+
+.join-us {
+  display: none;
+}
+
+#partner {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #menu-bars {
+    display: none;
+  }
+
+  .desktop-header {
+    display: block;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-nav {
+    background-color: #272a31;
+    color: #d3d3d3;
+    display: flex;
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0.5rem 5rem;
+  }
+
+  .top-nav ul {
+    display: flex;
+    align-self: stretch;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    gap: 1rem;
+  }
+
+  .main-nav img {
+    width: 150px;
+  }
+
+  .main-nav .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .nav-links ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .nav-links button {
+    padding: 0.5rem 1rem;
+    border: 5px solid #ec5242;
+    color: #ec5242;
+  }
+
+  #home {
+    height: 60vh;
+    padding: 4rem;
+  }
+
+  #home .welcome {
+    font-size: 2rem;
+  }
+
+  #home .topic {
+    font-size: 3rem;
+  }
+
+  #home .introduction {
+    font-size: 0.8rem;
+    width: 510px;
+  }
+
+  .program-container {
+    display: flex;
+    padding: 24px;
+  }
+
+  .program {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 2px;
+    padding: 5px;
+    line-height: 1.5;
+  }
+
+  .program img {
+    width: 2.5rem;
+  }
+
+  .program .description {
+    text-align: center;
+    font-size: small;
+  }
+
+  .register {
+    display: none;
+  }
+
+  .join-us {
+    display: block;
+  }
+
+  .featured-speakers {
+    margin: 50px 24px;
+  }
+
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .speaker-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  #partner {
+    display: block;
+    text-align: center;
+    margin: 40px 0;
+    padding: 50px;
+    background-color: rgb(44, 43, 43);
+    color: #fff;
+    line-height: 2;
+  }
+
+  .partners-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+
+  .partners-logo img {
+    width: 9.1rem;
+    opacity: 70%;
+    transition: 1.5s;
+    margin: 5px;
+  }
+
+  footer {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  footer .logo {
+    width: 10rem;
+  }
+
+  footer .license {
+    width: 20rem;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .featured-speakers {
+      margin: 50px 100px;
+    }
+  }
 }
