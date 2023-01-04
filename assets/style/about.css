@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+@font-face {
+  font-family: "COCOGOOSE";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("COCOGOOSE Regular"),
+    url("../font/cocogoose_trial.woff") format("woff");
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-bottom: 40px;
+  text-align: start;
+}
+
+#about {
+  background-image: url("/assets/images/main_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 24px 65px 24px;
+  text-align: center;
+}
+
+#about p {
+  line-height: 2;
+}
+
+.welcome {
+  color: #ec5242;
+  font-size: x-large;
+}
+
+.topic {
+  color: #ec5242;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.introduction {
+  background-color: rgb(252, 252, 252);
+  margin: 20px 0;
+  padding: 10px;
+  border: 3px solid #fff;
+}
+
+#logo {
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px 24px;
+  margin: 20px 0;
+  border-bottom: 2px solid rgb(226, 223, 223);
+}
+
+#logo p {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#logo .brand-logo {
+  width: 37%;
+  padding: 20px 50px;
+  border: 1px solid rgb(226, 223, 223);
+}
+
+#past-summits {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.summits img {
+  width: 70%;
+  margin-top: 20px;
+}
+
+#partner {
+  text-align: center;
+  margin: 40px 0;
+  padding: 24px;
+  background-color: rgb(44, 43, 43);
+  color: #fff;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-logo img {
+  width: 9.1rem;
+  opacity: 70%;
+  transition: 1.5s;
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .logo {
+  width: 10rem;
+}
+
+footer .license {
+  width: 20rem;
+}
