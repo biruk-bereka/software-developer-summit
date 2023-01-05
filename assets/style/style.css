@@ -219,7 +219,18 @@ nav {
 }
 
 footer {
-  display: none;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .logo {
+  width: 10rem;
+}
+
+footer .license {
+  width: 20rem;
 }
 
 @media screen and (min-width: 768px) {
