@@ -83,7 +83,7 @@ nav {
 }
 
 #home {
-  background-image: url("./assets/images/main_background.png");
+  background-image: url("../images/main_background.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 24px 65px 24px;
@@ -113,7 +113,7 @@ nav {
 }
 
 #main-program {
-  background: #272a32 url("./assets/images/program_background.png");
+  background: #272a32 url("../images/program_background.png");
   padding: 20px 0;
   text-align: center;
   color: #fff;
