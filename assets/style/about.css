@@ -29,6 +29,64 @@ header {
   text-align: start;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav {
+  background-color: #272a31;
+  color: #d3d3d3;
+  display: flex;
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0.5rem 5rem;
+}
+
+.top-nav ul {
+  display: flex;
+  align-self: stretch;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  padding: 0.5rem 5rem;
+  gap: 1rem;
+}
+
+.main-nav img {
+  width: 150px;
+}
+
+.main-nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links .about:visited {
+  color: #ec5242;
+}
+
+.nav-links button {
+  padding: 0.5rem 1rem;
+  border: 5px solid #ec5242;
+  color: #ec5242;
+}
+
 #about {
   background-image: url("/assets/images/main_background.png");
   background-repeat: no-repeat;
@@ -141,63 +199,6 @@ footer .license {
     padding-bottom: 0;
   }
 
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0;
-    padding: 0;
-  }
-
-  .top-nav {
-    background-color: #272a31;
-    color: #d3d3d3;
-    display: flex;
-    align-self: stretch;
-    justify-content: flex-end;
-    padding: 0.5rem 5rem;
-  }
-
-  .top-nav ul {
-    display: flex;
-    align-self: stretch;
-    justify-content: flex-end;
-    gap: 1rem;
-  }
-
-  .main-nav {
-    display: flex;
-    justify-content: space-between;
-    align-self: stretch;
-    align-items: center;
-    padding: 0.5rem 5rem;
-    gap: 1rem;
-  }
-
-  .main-nav img {
-    width: 150px;
-  }
-
-  .main-nav .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 5rem;
-  }
-
-  .nav-links ul {
-    display: flex;
-    gap: 1.5rem;
-  }
-
-  .nav-links .about:visited {
-    color: #ec5242;
-  }
-
-  .nav-links button {
-    padding: 0.5rem 1rem;
-    border: 5px solid #ec5242;
-    color: #ec5242;
-  }
 
   #about .welcome {
     display: none;
@@ -235,5 +236,36 @@ footer .license {
     align-items: center;
     gap: 3rem;
   }
-  
+}
+
+/* Javascript */
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%;
+  color: #272a31;
+  background-color: rgba(243, 243, 243, 0.9);
+  height: 100vh;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.align-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#close-menu {
+  align-self: flex-end;
 }

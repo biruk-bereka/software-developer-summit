@@ -19,7 +19,7 @@
     <title>World Software Developer Summit</title>
   </head>
   <body>
-    <header class="desktop-header">
+    <header class="header desktop-header">
       <nav>
         <div class="top-nav">
           <ul>
@@ -31,11 +31,12 @@
           </ul>
         </div>
         <div class="main-nav">
+          <i id="close-menu" class="fa-solid fa-xmark fa-2x"></i>
           <a href="index.html"
             ><img src="/assets/images/logo.png" alt="logo"
           /></a>
           <div class="nav-links">
-            <ul>
+            <ul class="links">
               <li><a href="about.html">About</a></li>
               <li><a href="">Program</a></li>
               <li><a href="">Join</a></li>
@@ -49,13 +50,14 @@
     </header>
     <main>
       <section id="home">
-        <header>
-          <a id="menu-bars" href=""
-            ><i class="fa-sharp fa-solid fa-bars fa-2x"></i
-          ></a>
+        <header class="mobile-header">
+          <i id="menu-bars" class="fa-sharp fa-solid fa-bars fa-2x"></i>
         </header>
         <p class="welcome">"Hello! Sharing World"</p>
-        <h1 class="topic">SOFTWARE DEVELOPER  <br> GLOBAL SUMMIT 2022</h1>
+        <h1 class="topic">
+          SOFTWARE DEVELOPER <br />
+          GLOBAL SUMMIT 2022
+        </h1>
         <p class="introduction">
           Come on and let it show. Three days of Developer Awesomeness, GIDS
           Expo is where thousands of the most talented professionals in tech
@@ -130,7 +132,7 @@
           </div>
         </div>
         <div>
-          <button class="register">Join SD Global Summit 2022</button>   
+          <button class="register">Join SD Global Summit 2022</button>
           <u class="join-us">SEE THE WHOLE PROGRAM</u>
         </div>
       </section>
@@ -218,7 +220,7 @@
               <p>
                 Abir Das is currently pursuing his masters degree in Operational
                 Research From University Of Delhi. He received bachelor's degree
-                from Calcutta University in Statistics. 
+                from Calcutta University in Statistics.
               </p>
             </div>
           </div>
@@ -272,7 +274,10 @@
       <section id="partner">
         <div>
           <h2>Partner</h2>
-          <img src="/assets/images/title_decoration.png" alt="title decoration" />
+          <img
+            src="/assets/images/title_decoration.png"
+            alt="title decoration"
+          />
         </div>
         <div class="partners-logo">
           <img
@@ -302,5 +307,6 @@
       <img class="logo" src="/assets/images/logo.png" alt="logo" />
       <p class="license">2022 Software Developer Some Rights Reserved</p>
     </footer>
+    <script src="/assets/script/script.js"></script>
   </body>
 </html>
