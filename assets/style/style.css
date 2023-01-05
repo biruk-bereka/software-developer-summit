@@ -83,7 +83,7 @@ nav {
 }
 
 #home {
-  background-image: url("/assets/images/main_background.png");
+  background-image: url("./assets/images/main_background.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px 24px 65px 24px;

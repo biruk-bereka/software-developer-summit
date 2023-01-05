@@ -59,7 +59,7 @@
 
 > Here is the link for online version of the project
 
-- [Live Demo Link]()
+- [Live Demo Link](https://biruk-bereka.github.io/software-developer-summit/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
