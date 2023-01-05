@@ -77,10 +77,6 @@ nav {
   gap: 1.5rem;
 }
 
-.nav-links .about:visited {
-  color: #ec5242;
-}
-
 .nav-links button {
   padding: 0.5rem 1rem;
   border: 5px solid #ec5242;
@@ -193,6 +189,18 @@ footer .license {
 
   .desktop-header {
     display: block;
+  }
+
+  .main-nav .nav-links {
+    gap: 3rem;
+  }
+
+  .nav-links .about:visited {
+    color: #ec5242;
+  }
+
+  .nav-links ul {
+    gap: 2rem;
   }
 
   #close-menu {

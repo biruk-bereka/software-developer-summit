@@ -95,9 +95,15 @@ nav {
 }
 
 .topic {
-  color: #ec5242;
-  font-weight: 600;
-  font-size: 27px;
+  color: white;
+  font-family: 'COCOGOOSE', sans-serif;
+  padding: 10px 0;
+  background-image: url('../images/text-background.png');
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 900;
 }
 
 .introduction {
@@ -225,6 +231,14 @@ footer {
     display: block;
   }
 
+  .main-nav .nav-links {
+    gap: 3rem;
+  }
+
+  .nav-links ul {
+    gap: 2rem;
+  }
+
   #close-menu {
     display: none;
   }
@@ -243,7 +257,7 @@ footer {
   }
 
   #home .topic {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #home .introduction {
@@ -347,6 +361,10 @@ footer {
   @media screen and (min-width: 1024px) {
     .featured-speakers {
       margin: 50px 100px;
+    }
+
+    #home .topic {
+      font-size: 3rem;
     }
   }
 }
