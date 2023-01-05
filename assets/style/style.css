@@ -113,7 +113,7 @@ nav {
 }
 
 #main-program {
-  background: #272a32 url("/assets/images/program_background.png");
+  background: #272a32 url("./assets/images/program_background.png");
   padding: 20px 0;
   text-align: center;
   color: #fff;
