@@ -36,7 +36,7 @@ title.innerText = 'Featured Speakers';
 title.classList.add('header');
 
 const titleDecoration = document.createElement('img');
-titleDecoration.src = '/assets/images/title_decoration.png';
+titleDecoration.src = './assets/images/title_decoration.png';
 titleDecoration.alt = 'title decoration';
 titleDecoration.classList.add('title-decoration');
 
@@ -47,8 +47,8 @@ const speakers = [
     details: `Dr. Venkat Subramaniam is an award-winning author, founder of
     Agile Developer, Inc., creator of agilelearner.com, and an
     instructional professor at the University of Houston`,
-    picture: 'assets/images/speakers/speaker-01.jpeg',
-    decoration: '/assets/images/speakers/speaker_decoration.png',
+    picture: './assets/images/speakers/speaker-01.jpeg',
+    decoration: './assets/images/speakers/speaker_decoration.png',
   },
   {
     name: 'Emily Jiang',
@@ -56,8 +56,8 @@ const speakers = [
     details: ` Emily Jiang is a Java Champion. She is Liberty Microservices
     Architect and Advocate, Senior Technical Staff Member (STSM) in
     IBM, based at Hursley Lab in the UK.`,
-    picture: 'assets/images/speakers/speaker-02.jpeg',
-    decoration: '/assets/images/speakers/speaker_decoration.png',
+    picture: './assets/images/speakers/speaker-02.jpeg',
+    decoration: './assets/images/speakers/speaker_decoration.png',
   },
   {
     name: 'Michael Carducci',
@@ -65,8 +65,8 @@ const speakers = [
     details: `Michael Carducci is a hands-on software architect, consultant,
     entrepreneur, entertainer, and speaker with a reputation for
     doing the impossible.`,
-    picture: 'assets/images/speakers/speaker-03.jpeg',
-    decoration: '/assets/images/speakers/speaker_decoration.png',
+    picture: './assets/images/speakers/speaker-03.jpeg',
+    decoration: './assets/images/speakers/speaker_decoration.png',
   },
   {
     name: 'Abir Das',
@@ -74,8 +74,8 @@ const speakers = [
     details: `Abir Das is currently pursuing his masters degree in Operational
     Research From University Of Delhi. He received bachelor's degree
     from Calcutta University in Statistics.`,
-    picture: 'assets/images/speakers/speaker-04.jpeg',
-    decoration: '/assets/images/speakers/speaker_decoration.png',
+    picture: './assets/images/speakers/speaker-04.jpeg',
+    decoration: './assets/images/speakers/speaker_decoration.png',
   },
   {
     name: 'Daniel Oh',
@@ -83,8 +83,8 @@ const speakers = [
     details: ` Daniel Oh is a Senior Principal Developer Advocate at Red Hat to
     evangelize developers for building Cloud-Native Microservices
     and Serverless Functions with Cloud-Native Runtimes.`,
-    picture: 'assets/images/speakers/speaker-05.jpeg',
-    decoration: '/assets/images/speakers/speaker_decoration.png',
+    picture: './assets/images/speakers/speaker-05.jpeg',
+    decoration: './assets/images/speakers/speaker_decoration.png',
   },
   {
     name: 'Pooja Subramanian',
@@ -93,8 +93,8 @@ const speakers = [
     about 11 years ago and since then she has led multiple
     co-sourced and distributed engagements in domains like retail,
     IoT, and healthcare for enterprises and scale-ups.`,
-    picture: 'assets/images/speakers/speaker-06.jpeg',
-    decoration: '/assets/images/speakers/speaker_decoration.png',
+    picture: './assets/images/speakers/speaker-06.jpeg',
+    decoration: './assets/images/speakers/speaker_decoration.png',
   },
 
 ];
