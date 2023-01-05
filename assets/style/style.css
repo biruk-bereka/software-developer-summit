@@ -203,12 +203,12 @@ footer {
     display: none;
   }
 
-  #close-menu {
-    display: none;
-  }
-
   .desktop-header {
     display: block;
+  }
+
+  #close-menu {
+    display: none;
   }
 
   header {

@@ -195,10 +195,13 @@ footer .license {
     display: block;
   }
 
+  #close-menu {
+    display: none;
+  }
+
   header {
     padding-bottom: 0;
   }
-
 
   #about .welcome {
     display: none;
