@@ -137,14 +137,19 @@ If you like this project please star in here on Github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank Creative Commons
+
+This project is only for student purpose, the design is based in the template from [Cindy Shin](https://www.behance.net/adagio07).
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
 
-Creative Commons
-
-This project is only for student purpose, the design is based in the template from [Cindy Shin](https://www.behance.net/adagio07).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
