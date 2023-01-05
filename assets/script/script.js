@@ -10,6 +10,7 @@ function openMenu() {
   menuBar.classList.toggle('invisible');
   header.classList.toggle('visible');
   topNav.classList.toggle('invisible');
+  mainNav.classList.toggle('menu');
   mainNav.classList.toggle('align-items');
   navLinks.classList.toggle('align-items');
   links.classList.toggle('align-items');
@@ -20,6 +21,7 @@ function closeMenu() {
   menuBar.classList.toggle('invisible');
   closeBar.classList.toggle('invisible');
   topNav.classList.toggle('invisible');
+  mainNav.classList.toggle('menu');
   mainNav.classList.toggle('align-items');
   navLinks.classList.toggle('align-items');
   links.classList.toggle('align-items');
