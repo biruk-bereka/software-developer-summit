@@ -120,28 +120,46 @@ nav {
 
 #main-program {
   background: #272a32 url("../images/program_background.png");
-  padding: 20px 0;
   text-align: center;
   color: #fff;
+  padding: 1rem;
 }
 
-.program {
+.program-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.program-container .program {
   background-color: rgba(63, 63, 63, 0.4);
   display: grid;
-  grid-template-columns: 1fr 1fr 3fr;
-  align-items: center;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 0.3rem;
+  padding: 1rem;
   text-align: start;
-  padding: 10px;
-  margin: 10px 15px;
+}
+
+.program-container .program .program-heading {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.program img {
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .program .title {
   color: #ec5242;
+  font-size: 1rem;
 }
 
 .program .description {
-  padding-left: 10px;
-  color: #fff;
+  font-size: 0.8rem;
+  justify-self: flex-start;
 }
 
 .register {
@@ -276,26 +294,32 @@ footer .license {
     width: 510px;
   }
 
-  .program-container {
-    display: flex;
-    padding: 24px;
+  #main-program {
+    padding: 2rem;
   }
 
-  .program {
+  #main-program .program-container {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  #main-program .program-container .program {
     display: flex;
     flex-direction: column;
-    margin: 20px 2px;
-    padding: 5px;
-    line-height: 1.5;
-  }
-
-  .program img {
-    width: 2.5rem;
-  }
-
-  .program .description {
+    align-items: center;
+    justify-content: flex-start;
     text-align: center;
-    font-size: small;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  #main-program .program-container .program .program-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
   }
 
   .register {
@@ -304,6 +328,8 @@ footer .license {
 
   .join-us {
     display: block;
+    margin: 1rem;
+    padding: 2rem;
   }
 
   .featured-speakers {
@@ -370,12 +396,22 @@ footer .license {
   }
 
   @media screen and (min-width: 1024px) {
+    .program-container {
+      padding: 0 5rem;
+    }
+
     .featured-speakers {
       margin: 50px 100px;
     }
 
     #home .topic {
       font-size: 3rem;
+    }
+
+    @media screen and (min-width: 1440px) {
+      .program-container {
+        padding: 0 10rem;
+      }
     }
   }
 }
