@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+@font-face {
+  font-family: "COCOGOOSE";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("COCOGOOSE Regular"),
+    url("../font/cocogoose_trial.woff") format("woff");
+}
+
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  padding-bottom: 40px;
+  text-align: start;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.top-nav {
+  background-color: #272a31;
+  color: #d3d3d3;
+  display: flex;
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0.5rem 5rem;
+}
+
+.top-nav ul {
+  display: flex;
+  align-self: stretch;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: center;
+  padding: 0.5rem 5rem;
+  gap: 1rem;
+}
+
+.main-nav img {
+  width: 150px;
+}
+
+.main-nav .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links button {
+  padding: 0.5rem 1rem;
+  border: 5px solid #ec5242;
+  color: #ec5242;
+}
+
+#about {
+  background-image: url("../images/main_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 24px 65px 24px;
+  text-align: center;
+}
+
+#about p {
+  line-height: 2;
+}
+
+.welcome {
+  color: #ec5242;
+  font-size: x-large;
+}
+
+.topic {
+  color: #ec5242;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.introduction {
+  background-color: rgb(252, 252, 252);
+  margin: 20px 0;
+  padding: 10px;
+  border: 3px solid #fff;
+}
+
+#logo {
+  text-align: center;
+  line-height: 1.5;
+  padding: 20px 24px;
+  margin: 20px 0;
+  border-bottom: 2px solid rgb(226, 223, 223);
+}
+
+#logo p {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#logo .brand-logo {
+  width: 37%;
+  padding: 20px 50px;
+  border: 1px solid rgb(226, 223, 223);
+}
+
+#past-summits {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.summits img {
+  width: 70%;
+  margin-top: 20px;
+}
+
+#partner {
+  text-align: center;
+  margin: 40px 0;
+  padding: 24px;
+  background-color: rgb(44, 43, 43);
+  color: #fff;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-logo img {
+  width: 9.1rem;
+  opacity: 70%;
+  transition: 1.5s;
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .logo {
+  width: 10rem;
+}
+
+footer .license {
+  width: 20rem;
+}
+
+.desktop-header {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #menu-bars {
+    display: none;
+  }
+
+  .desktop-header {
+    display: block;
+  }
+
+  .main-nav .nav-links {
+    gap: 3rem;
+  }
+
+  .nav-links .about:visited {
+    color: #ec5242;
+  }
+
+  .nav-links ul {
+    gap: 2rem;
+  }
+
+  #close-menu {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+
+  #about .welcome {
+    display: none;
+  }
+
+  #about {
+    padding: 60px;
+  }
+
+  .topic {
+    font-size: 40px;
+  }
+
+  .summits {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 40px;
+  }
+
+  .summits img {
+    width: 300px;
+  }
+
+  #partner {
+    display: none;
+  }
+
+  footer {
+    background-color: #3c3c3d;
+    color: white;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+/* Javascript */
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: #e1e2e4;
+  backdrop-filter: blur(8px);
+  display: block;
+  transition: all 1s ease;
+  z-index: 2;
+  justify-content: center;
+}
+
+.align-items {
+  display: flex;
+  flex-direction: column;
+}
+
+#close-menu {
+  align-self: flex-end;
+}
