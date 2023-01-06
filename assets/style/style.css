@@ -412,14 +412,16 @@ footer .license {
       .program-container {
         padding: 0 10rem;
       }
+
       .program .title {
         color: #ec5242;
         font-size: 1.5rem;
-    }
-    .program .description {
-      font-size: 1rem;
-      justify-self: flex-start;
-  }
+      }
+
+      .program .description {
+        font-size: 1rem;
+        justify-self: flex-start;
+      }
     }
   }
 }
